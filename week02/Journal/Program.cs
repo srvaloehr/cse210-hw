@@ -56,12 +56,12 @@ class Program
 
             else if (choice == 5)
             {
-                Console.WriteLine("Goodbye");
+                Console.WriteLine("bye");
             }
 
             else
             {
-                Console.WriteLine("Invalid option.");
+                Console.WriteLine("Invalid.");
             }
         }
     }
