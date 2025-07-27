@@ -1,9 +1,12 @@
+
+
+
 using System.Data.Common;
 
 public class Word
 {
     private string _text;
-    
+
     private bool _isHidden;
 
 
