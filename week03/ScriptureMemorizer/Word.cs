@@ -3,22 +3,24 @@ using System.Data.Common;
 public class Word
 {
     private string _text;
+    
     private bool _isHidden;
+
 
     public Word(string text)
     {
-        _text = text; 
+        _text = text;
         _isHidden = false; // set to show word 
     }
 
     public void Hide()
     {
-        _isHidden = true; //hide 
+        _isHidden = true; // hide 
     }
 
     public void Show()
     {
-        _isHidden = false; //show 
+        _isHidden = false; // show 
     }
 
     public bool IsHidden()
